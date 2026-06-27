@@ -9,7 +9,7 @@ export async function loginUser(user, password) {
 
 
   if (user === "admin" && password === "123") {
-    redirect("/teste");
+    redirect("/dashboard");
 
   }
 
